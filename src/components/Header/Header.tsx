@@ -3,7 +3,7 @@ import { UserIcon, ShoppingBagIcon } from '@heroicons/react/24/solid';
 
 const Header = () => {
     return (
-        <section>
+        <section className=''>
             <header className='flex items-center justify-between pt-4 nw-green '>
                 <img src={Logo} alt='Ninth Wave Records logo' className='h-24 self-end relative bottom-[-1px]'/>
                 <div className='flex-grow mx-4 max-w-200 '>

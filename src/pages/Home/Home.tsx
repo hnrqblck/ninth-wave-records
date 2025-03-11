@@ -1,9 +1,13 @@
 import Header from "../../components/Header/Header";
+import BannerCarousel from "../../components/BannerCarousel/BannerCarousel";
 
 
 const Home = () => {
     return (
-        <Header />
+        <div>
+            <Header />
+            <BannerCarousel />
+        </div>
     )
 }
 
