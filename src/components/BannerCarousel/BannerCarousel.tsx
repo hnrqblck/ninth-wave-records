@@ -25,37 +25,36 @@ const BannerCarousel = () => {
     //   scrollbar={{ draggable: true }}
       speed={50} 
       loop={true}
-      className='h-auto rounded-none overflow-hidden'
+      className='h-[350px] rounded-none overflow-hidden'
     >
-       <SwiperSlide>
+       <SwiperSlide className="w-full h-full">
           <img
             src={Mayhem}
             alt="Banner of Mayhem by Lady Gaga"
-            // className="w-full h-auto"
+            className="w-full h-full object-cover"
           />
         </SwiperSlide>
-       <SwiperSlide>
+       <SwiperSlide className="w-full h-full">
           <img
             src={EternalSunshine}
             alt="Banner of Eternal Sunshine Deluxe by Ariana"
-            // className="w-full h-auto"
+            className="w-full h-full object-cover"
           />
         </SwiperSlide>
-       <SwiperSlide>
+       <SwiperSlide className="w-full h-full">
           <img
             src={Eusexua}
             alt="Banner of Eusexua by FKA Twigs"
-            // className="w-full h-auto"
+            className="w-full h-full object-cover"
           />
         </SwiperSlide>
-       <SwiperSlide>
+       <SwiperSlide className="w-full h-full">
           <img
             src={LoveliestTime}
             alt="Banner of The Loveliest Time by Carly Rae Jepsen"
-            // className="w-full h-auto"
+            className="w-full h-full object-cover"
           />
         </SwiperSlide>
-       
     </Swiper>
   );
 };
